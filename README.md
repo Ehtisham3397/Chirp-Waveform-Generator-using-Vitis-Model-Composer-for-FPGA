@@ -1,4 +1,4 @@
-# FPGA Chirp Generator Using Vitis Model Composer
+# Chirp Waveform Generator Using Vitis Model Composer for FPGA
 
 A parameterized FPGA-oriented chirp generator developed using AMD Vitis Model Composer. The design generates a complex baseband I/Q waveform from user-defined bandwidth (BW) and pulse width (PW), using quadratic phase generation, phase wrapping, and CORDIC-based phase-to-I/Q conversion.
 
@@ -60,7 +60,7 @@ where:
 * \(PW\) is the requested pulse width
 * \(t\) is time within the pulse
 
-The phase is obtained by integrating instantaneous frequency. The resulting phase trajectory is quadratic, which allows the frequency sweep to be generated from a phase function.
+The phase is obtained by integrating the instantaneous frequency. The resulting phase trajectory is quadratic, which allows the frequency sweep to be generated from a phase function.
 
 ### Discrete-Time Implementation
 
@@ -160,7 +160,7 @@ FPGA-Chirp-Generator-using-Vitis-Model-Composer/
 │   └── instantaneous_frequency_vs_time.png
 ├── model_composer/
 │   ├── README.md
-│   └── [your actual Model Composer model]
+│   └── chirp_waveform_generator.slx
 └── matlab/
     ├── README.md
     └── chirp_analysis.m
