@@ -1,6 +1,6 @@
 # Chirp Waveform Generator Using Vitis Model Composer for FPGA
 
-A parameterized FPGA-oriented chirp generator developed using AMD Vitis Model Composer. The design generates a complex baseband I/Q waveform from user-defined bandwidth (BW) and pulse width (PW), using quadratic phase generation, phase wrapping, and CORDIC-based phase-to-I/Q conversion.
+A parameterized FPGA-oriented chirp generator developed using AMD Vitis Model Composer. The design generates a complex baseband I/Q waveform from user-defined bandwidth (BW) and pulse width (PW), using quadratic phase generation, phase wrapping, and CORDIC-based phase-to-I/Q conversion. 
 
 [![Hackster Project](https://img.shields.io/badge/Project-Hackster.io-orange)](https://www.hackster.io/mehtisham/chirp-waveform-generator-using-vitis-model-composer-for-fpga-098aae)
 
