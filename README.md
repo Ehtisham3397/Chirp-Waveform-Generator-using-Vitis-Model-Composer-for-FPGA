@@ -173,17 +173,17 @@ The tree above describes the intended organization. Files that are not included 
 ## How to Use This Repository
 
 1. Review the architecture and mathematical background in this README.
-2. Open the Model Composer model if it is included in `model_composer/`.
+2. Open the Model Composer model included in `model_composer/`.
 3. Check the model's required blocks, parameters, fixed-point settings, and software dependencies.
 4. Run the simulation with the configuration described above, or change BW and PW within the supported model limits.
-5. If the MATLAB analysis script and required exported data are included, run the script to reproduce the frequency-versus-time analysis.
+5. Export the data to MATLAB, and run the script to reproduce the frequency-versus-time analysis.
 6. Compare the resulting I/Q waveforms, spectrum, and frequency trajectory with the figures in `figures/`.
 
 The exact steps required to run the model may depend on the Model Composer version and any external dependencies.
 
 ## Current Status and Future Work
 
-The current project demonstrates the chirp-generation architecture through Model Composer development and simulation-based analysis.
+The current project demonstrates the chirp-waveform-generation architecture through Model Composer development and simulation-based analysis.
 
 Planned future work includes:
 
@@ -198,7 +198,7 @@ These hardware tasks are planned work and are not claimed as completed results i
 
 ## Related Project
 
-**Hackster.io article:** [FPGA Chirp Generator Using Vitis Model Composer](https://www.hackster.io/mehtisham/fpga-chirp-generator-using-vitis-model-composer-098aae)
+**Hackster.io article:** [Chirp Waveform Generator Using Vitis Model Composer for FPGA](https://www.hackster.io/mehtisham/fpga-chirp-generator-using-vitis-model-composer-098aae)
 
 For another FPGA signal-generation project, see:
 
