@@ -62,6 +62,8 @@ where:
 
 The phase is obtained by integrating the instantaneous frequency. The resulting phase trajectory is quadratic, which allows the frequency sweep to be generated from a phase function.
 
+$$\phi_{\text{baseband}}(t) = \pi \frac{\text{BW}}{\text{PW}} \left(t - \frac{\text{PW}}{2}\right)^2$$
+
 ### Discrete-Time Implementation
 
 The number of samples corresponding to the requested pulse width is:
